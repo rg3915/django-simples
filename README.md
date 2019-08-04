@@ -38,3 +38,11 @@ python manage.py migrate
 [Live de Python #94 - Django básico - com Regis Santos](https://www.youtube.com/watch?v=YuKdwIhJysU)
 
 [Live de Python #95 - Entendendo o ORM do Django - com Regis Santos](https://www.youtube.com/watch?v=cyxky2QJlwg)
+
+[Heroku](https://www.heroku.com/home)
+
+[Configuring Django Apps for Heroku](https://devcenter.heroku.com/articles/django-app-configuration)
+
+[Tutorial deploy no Heroku](https://github.com/rg3915/tutoriais/tree/master/django-basic#deploy-no-heroku)
+
+[dj-static](https://pypi.org/project/dj-static/)
