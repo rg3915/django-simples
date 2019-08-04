@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>Bem-vindo ao Django</h1>
+    <p>Exemplo básico <a href="https://github.com/rg3915/django-simples" target="_blank">Github</a></p>
+  </div>
+</div>
+
+<div>
+  {% if object_list %}
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Usuário</th>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>E-mail</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for object in object_list %}
+          <tr>
+            <td>{{ object.username }}</td>
+            <td>{{ object.first_name }}</td>
+            <td>{{ object.last_name }}</td>
+            <td>{{ object.email }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p class="alert alert-warning">Sem itens na lista</p>
+  {% endif %}
+</div>
+
+{% endblock content %}

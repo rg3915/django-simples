@@ -1,0 +1,9 @@
+body {
+  margin-top: 60px;
+}
+.ok {
+  color: #44AD41; /*green*/
+}
+.no {
+  color: #DE2121; /*vermelho*/
+}
