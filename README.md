@@ -39,6 +39,8 @@ python manage.py migrate
 
 [Live de Python #95 - Entendendo o ORM do Django - com Regis Santos](https://www.youtube.com/watch?v=cyxky2QJlwg)
 
+[Emmet](https://emmet.io/)
+
 [Heroku](https://www.heroku.com/home)
 
 [Configuring Django Apps for Heroku](https://devcenter.heroku.com/articles/django-app-configuration)
